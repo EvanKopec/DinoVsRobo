@@ -14,6 +14,7 @@ class Battlefield:
 
     def display_welcome(self):
         print('Welcome to an epic battle for the ages! Only on side can win!')
+        print(input('Who would you like to win, Megatron the robot or T-Rex the dinosaur? Enter here: '))
         print("")
 
     def battle_phase(self):
