@@ -1,6 +1,4 @@
-from robot import Robot
-from dinosaur import Dinosaur
-from weapon import Weapon
 from battlefield import Battlefield
 
-
+battlefield_one = Battlefield()
+battlefield_one.run_game()
