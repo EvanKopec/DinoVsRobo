@@ -23,17 +23,17 @@ class Battlefield:
 
         team_robo.attack(team_dino)
         print('Megatron attacked T-Rex with a sword for 25 damage!')
-        print(f'T-Rex health is now at {team_dino.health} !')
+        print(f'T-Rex health is now at {team_dino.health}!')
         print('')
 
         team_dino.attack(team_robo)
         print('T-Rex attacked Megatron for 25 damage!')
-        print(f'Megatrons health is now at {team_robo.health} ')
+        print(f'Megatrons health is now at {team_robo.health}! ')
         print('')
 
         team_robo.attack(team_dino)
         print('Megatron attacked T-Rex with a sword for 25 damage!')
-        print(f'T-Rex health is now at {team_dino.health}')
+        print(f'T-Rex health is now at {team_dino.health}!')
         print('')
 
         team_dino.attack(team_robo)
@@ -43,12 +43,12 @@ class Battlefield:
 
         team_robo.attack(team_dino)
         print('Megatron attacked T-Rex with a sword for 25 damage!')
-        print(f'T-Rex health is now at {team_dino.health} !')
+        print(f'T-Rex health is now at {team_dino.health}!')
         print('')
 
         team_dino.attack(team_robo)
         print('T-Rex attacked Megatron for 25 damage!')
-        print(f'Megatrons health is now at {team_robo.health} !')
+        print(f'Megatrons health is now at {team_robo.health}!')
         print('')
 
         team_robo.attack(team_dino)
