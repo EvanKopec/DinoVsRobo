@@ -14,46 +14,44 @@ class Battlefield:
 
     def display_welcome(self):
         print('Welcome to an epic battle for the ages! Only on side can win!')
-        print(input('Who would you like to win, Megatron the robot or T-Rex the dinosaur? Enter here: '))
+        print(input(f'Who would you like to win, {self.robot.name} or {self.dinosaur.name}? Enter here: '))
         print("")
 
     def battle_phase(self):
-        team_dino = Dinosaur('T-Rex', 25)
-        team_robo = Robot('Megatron')
 
-        team_robo.attack(team_dino)
+        self.robot.attack(self.dinosaur)
         print('Megatron attacked T-Rex with a sword for 25 damage!')
-        print(f'T-Rex health is now at {team_dino.health}!')
+        print(f'T-Rex health is now at {self.dinosaur.health}!')
         print('')
 
-        team_dino.attack(team_robo)
+        self.dinosaur.attack(self.robot)
         print('T-Rex attacked Megatron for 25 damage!')
-        print(f'Megatrons health is now at {team_robo.health}! ')
+        print(f'Megatrons health is now at {self.robot.health}! ')
         print('')
 
-        team_robo.attack(team_dino)
+        self.robot.attack(self.dinosaur)
         print('Megatron attacked T-Rex with a sword for 25 damage!')
-        print(f'T-Rex health is now at {team_dino.health}!')
+        print(f'T-Rex health is now at {self.dinosaur.health}!')
         print('')
 
-        team_dino.attack(team_robo)
+        self.dinosaur.attack(self.robot)
         print('T-Rex attacked Megatron for 25 damage!')
-        print(f'Megatrons health is now at {team_robo.health}!')
+        print(f'Megatrons health is now at {self.robot.health}!')
         print('')
 
-        team_robo.attack(team_dino)
+        self.robot.attack(self.dinosaur)
         print('Megatron attacked T-Rex with a sword for 25 damage!')
-        print(f'T-Rex health is now at {team_dino.health}!')
+        print(f'T-Rex health is now at {self.dinosaur.health}!')
         print('')
 
-        team_dino.attack(team_robo)
+        self.dinosaur.attack(self.robot)
         print('T-Rex attacked Megatron for 25 damage!')
-        print(f'Megatrons health is now at {team_robo.health}!')
+        print(f'Megatrons health is now at {self.dinosaur.health}!')
         print('')
 
-        team_robo.attack(team_dino)
+        self.robot.attack(self.dinosaur)
         print('Megatron attacked T-Rex with a sword for 25 damage!')
-        print(f'T-Rex has {team_dino.health} health remaining!')
+        print(f'T-Rex has {self.dinosaur.health} health remaining!')
         print('')
  
     def display_winner(self):
